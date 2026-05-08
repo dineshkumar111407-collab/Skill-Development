@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>One Shop</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial;
+        }
+
+        body{
+            background:#f2f2f2;
+        }
+
+        header{
+            background:#222;
+            color:white;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav{
+            background:orange;
+            padding:10px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
+        }
+
+        .container{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            margin-top:40px;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            background:white;
+            width:250px;
+            border-radius:10px;
+            overflow:hidden;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+            text-align:center;
+            padding-bottom:20px;
+        }
+
+        .card img{
+            width:100%;
+            height:220px;
+            object-fit:cover;
+        }
+
+        .card h2{
+            margin:15px 0;
+        }
+
+        .price{
+            color:green;
+            font-size:22px;
+            margin-bottom:15px;
+        }
+
+        button{
+            background:orange;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#ff6600;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>ONE SHOP</h1>
+    </header>
+
+    <nav>
+        <a href="C:\Users\SACHIN KRISH\stationery page1.html">Home</a>
+        <a href="C:\Users\SACHIN KRISH\order page.html">Order</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="card">
+            <img src="c:\Users\SACHIN KRISH\Downloads\note book.webp" alt="">
+            <h2>Note book set</h2>
+            <p class="price">₹999</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="card">
+            <img src="c:\Users\SACHIN KRISH\Downloads\markers.jfif" alt="">
+            <h2>Markers set</h2>
+            <p class="price">₹1499</p>
+            <button>Buy Now</button>
+        </div>
+
+        <div class="card">
+            <img src="c:\Users\SACHIN KRISH\Downloads\pen set.jfif" alt="">
+            <h2>Pen set</h2>
+            <p class="price">₹499</p>
+            <button>Buy Now</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 One Shop Website</p>
+    </footer>
+
+</body>
+</html>
